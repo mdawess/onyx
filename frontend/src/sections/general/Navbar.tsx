@@ -2,12 +2,12 @@ import React from 'react'
 import scholarData from '../../mockData/scholarData'
 import employerData from '../../mockData/employerData'
 
-export default function Navbar(props: any) {
+export default function Navbar() {
 
   return (
     <div className=''>
       <ul className=''>
-        <li>{name}</li>
+        <li>All Jobs</li>
         <li>Employers</li>
         <li>Favourites</li>
         <li>Contact Us</li>
@@ -16,4 +16,3 @@ export default function Navbar(props: any) {
   )
 }
 
-const name = scholarData.data.getScholars[0].name
